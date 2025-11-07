@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #one{
+            border: 2px solid black;
+            height: 630px;
+            width: 365px;
+            margin-left: 55px;
+            margin-top: 55px;
+            border-radius: 25px;
+            box-shadow:5px 45px 30px 12px rgb(194, 30, 125); ;
+            
+        }
+        #two>h1{
+            border: 2px solid black;
+            border-radius: 0px;
+            height: 140px;
+            width: 140px;
+            margin-top: 15px;
+            margin-left: 5px;
+            margin-right: 10px;
+        }
+        #two>h1>input{
+            padding-left: 25px;
+            padding-top: 55px;
+            color: transparent;
+        }
+        #two{
+            background-color: rgb(252, 144, 187);
+            display: flex;
+            border-radius: 25px;
+        }
+        #two h2{
+            
+            font-size: 22px;
+            font-weight: bolder;
+            color: blue;
+            text-decoration: underline;
+            padding-top: 50px;
+
+            
+        }
+        input{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        label{
+            font-style: italic;
+            margin-left: 10px;
+        }
+        .input{
+            padding: 5px;
+            border: none;
+            border-bottom: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div id="one">
+        <div id="two">
+        <h1> <input type="file"> </h1>
+        <h2>CONTACT INFO</h2>
+        </div> 
+    <div id="three"> 
+        <table>
+            <form action="">
+        <label>Name:</label> 
+            <input type="text" placeholder="Enter your name" class="input"class="input" > <br>
+        <label>Email:</label> 
+            <input type="email" placeholder="Enter your mail" value=""class="input" > <br>
+        <label>Age:</label>
+            <input type="number" placeholder="Enter your age" min="18" max="40" step="2"class="input"> <br>
+        <label for="">Stream:</label>
+            <select name="" id="">
+                <option value="" hidden=""></option>
+                <option value="">CSE</option>
+                <option value="">IT</option>
+                <option value="">ECE</option>
+                <option value="">EEE</option>
+                <option value="">AIDS</option>
+                <option value="">CYBER SECURITY</option> 
+            </select> <br>
+        <label>Password:</label>
+            <input type="password" placeholder="Enterf your Password" minlength="8" maxlength="16" required=""class="input"> <br>
+        <label>Enter URL:</label>
+            <input type="url" placeholder="Enter a URL"class="input" > <br>
+        <label>Date:</label>
+            <input type="date"class="input"> <br>
+        <label>Time:</label>
+            <input type="Time"class="input"> <br>
+        <label>Month:</label>
+            <input type="month"class="input"> <br>
+        <label>Local date time:</label>
+            <input type="datetime-local"class="input"> <br>
+        <label >Gender:</label>
+            <input type="radio" name="ohoo" >Male
+            <input type="radio" name="ohoo" >Female <br>
+        <label>Address:</label>
+            <textarea rows="5" cols="20" class="input"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex repellat voluptas alias incidunt reprehenderit est, mollitia cupiditate odit nihil adipisci qui expedita accusamus at, debitis repudiandae id quos doloremque. Quos minus debitis exercitationem aliquid. Modi et, ipsum vitae nulla, rem, dignissimos quam error architecto nam aut officiis laborum fugit officia.</p></textarea> <br>
+        <label>Languages:</label>
+            <input type="checkbox" checked="">Tamil
+            <input type="checkbox" checked="">English
+            <input type="checkbox">French
+            <input type="checkbox">Japanese <br>
+            <input type="submit"> 
+            <input type="reset">
+            </form>
+        </table>
+    </div>  
+            
+    
+    
+    </div>
+    <div id="two">
+        
+
+    </div>
+        
+    
+    
+</body>
+</html>
